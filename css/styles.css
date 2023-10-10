@@ -78,10 +78,6 @@ header a {
     width: 1158px
 }
 
-.one {
-    display: flex;
-}
-
 .link:hover {
     color: var(--IRIS)
 }
