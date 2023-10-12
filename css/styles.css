@@ -20,6 +20,13 @@ body {
     text-transform: uppercase;
 }
 
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
 .logo span {
     color: var(--IRIS);
 }
@@ -100,6 +107,36 @@ header a {
 
 .menu-item {
     display:flex
+}
+
+.menu {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.duties>.menu>.menu-item {
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.duties>.menu>.menu-item>p {
+    text-align: center;
+}
+
+.teammates>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    max-width: ;width: 1400px;
+    margin: 0 auto;
+}
+
+.teammates>ul>li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer .logo {
