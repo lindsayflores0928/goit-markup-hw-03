@@ -37,6 +37,7 @@ nav .logo {
 
 .one {
     margin: 20px;
+    align-items: center;
 }
 
 .hero {
@@ -86,7 +87,7 @@ header a {
 }
 .container {
     display: flex;
-    width: 1158px
+    width: 1440px
 }
 
 .link:hover {
@@ -141,6 +142,19 @@ header a {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.projects ul {
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.projects li img {
+    width: 100%;
+}
+
+.projects li {
+    width: 33%;
 }
 
 footer .logo {
