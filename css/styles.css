@@ -35,6 +35,10 @@ nav .logo {
     color: var(--NAVY-BLUE);
 }
 
+.one {
+    margin: 20px;
+}
+
 .hero {
     padding-top: 188px;
     padding-bottom: 188px;
