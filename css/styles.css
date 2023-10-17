@@ -104,6 +104,7 @@ header a {
 }
 .container {
     display: flex;
+    margin: 20px;
     width: 1440px
 }
 
