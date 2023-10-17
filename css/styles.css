@@ -20,12 +20,18 @@ body {
     text-transform: uppercase;
 }
 
-nav {
+nav .menu-item {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 20px;
 }
+
+.menu-item {
+    margin-left: 288;
+    margin-right: 576;
+}
+
 
 .logo span {
     color: var(--IRIS);
@@ -33,7 +39,12 @@ nav {
 
 nav .logo {
     color: var(--NAVY-BLUE);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
 }
+
 
 .one {
     margin: 20px;
@@ -44,6 +55,12 @@ nav .logo {
     padding-top: 188px;
     padding-bottom: 188px;
     text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
 }
 
 .button {
@@ -117,6 +134,9 @@ header a {
 .menu {
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 384;
+    margin-right: 384;
+    gap: 20;
 }
 
 .duties>.menu>.menu-item {
